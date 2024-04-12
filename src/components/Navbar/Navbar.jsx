@@ -26,7 +26,7 @@ const Navbar = () => {
           >
             <div className={`phone ${styles.flex} gap-1 divide-x-[2px]`}>
               <figure>
-                <img src={calling} alt="calling" />
+                <img src={calling} alt="calling" className="w-[100%]" />
               </figure>
               <p className="text-[var(--white-color)] text-[14px] font-normal pl-[15px] cursor-pointer">
                 +201091158519
