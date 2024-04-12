@@ -22,7 +22,7 @@ const Service = () => {
             />
           </div>
           <div
-            className={`scoials-media ${styles.flex} justify-end gap-2 mt-[200px]`}
+            className={`scoials-media hidden md:${styles.flex} justify-end gap-2 mt-[200px]`}
           >
             <button
               className={`${styles.flexCenter} border-[1px] border-[var(--main-color)] text-[var(--white-color)] text-[23px] font-bold w-[45px] h-[45px] rounded-[8px]`}
@@ -49,7 +49,7 @@ const Service = () => {
         </div>
         <Search />
         <div className="service-content mt-[50px]">
-          <p className="text-[#333F51] text-[19px] font-medium leading-[50px] mt-[20px]">
+          <p className="text-[#333F51] text-[16px] md:text-[19px] font-medium leading-[50px] mt-[20px]">
             تقديم الرعاية القلبية المتقدمة: مركز القلب الشامل على مدار الساعة في
             مركزنا الريادي لأمراض القلب، نضع رهانًا على تقديم أعلى مستويات
             الرعاية الطبية. يعد قسم أمراض القلب قلباً حيوياً في هذا المركز، حيث
@@ -79,7 +79,7 @@ const Service = () => {
           text="text-[var(--sec-color)]"
           paragraph="text-[#808D9E]"
         />
-        <div className="service-boxs grid grid-cols-3 gap-[30px] mt-[80px]">
+        <div className="service-boxs grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[30px] mt-[80px]">
           {servicesBox.map((item) => {
             return (
               <div
