@@ -15,7 +15,7 @@ const Search = () => {
               <img
                 src={service}
                 alt="service-img"
-                className="w-[32px] h-[32px]"
+                className="md:w-[32px] md:h-[32px]"
               />
             </figure>
           </div>
@@ -56,7 +56,7 @@ const Search = () => {
               <img
                 src={location}
                 alt="location-img"
-                className="w-[32px] h-[32px]"
+                className="md:w-[32px] md:h-[32px]"
               />
             </figure>
           </div>
@@ -102,7 +102,7 @@ const Search = () => {
               <img
                 src={stethoscope}
                 alt="stethoscope-img"
-                className="w-[32px] h-[32px]"
+                className="md:w-[32px] md:h-[32px]"
               />
             </figure>
           </div>
