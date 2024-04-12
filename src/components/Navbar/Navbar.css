@@ -1,0 +1,22 @@
+nav .navbar-menu a.active,
+nav .navbar-menu a.active .navbar-menu-icon {
+  color: var(--main-color);
+}
+
+nav .navbar-menu a::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  background-color: var(--main-color);
+  width: 0;
+  height: 3px;
+  transition: var(--trans-duration);
+}
+
+nav .navbar-menu a:hover::before {
+  width: 100%;
+}
+
+nav .phoneMenu {
+  transition: all 0.4s ease-in-out;
+}

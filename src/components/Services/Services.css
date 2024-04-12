@@ -1,0 +1,17 @@
+.services-box:first-child,
+.services-box-bg-g  {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.services-box:first-child .services-box-icon,
+.services-box-bg-g .services-box-icon {
+  background-color: var(--white-color);
+}
+.services-box:first-child h4,
+.services-box:first-child p,
+.services-box:first-child span {
+  color: var(--white-color);
+}
+.services-box-bg {
+  background-color: rgb(242 242 242 / var(--tw-border-opacity));
+}

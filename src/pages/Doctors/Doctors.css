@@ -1,0 +1,5 @@
+.doctor-Box .box {
+  backdrop-filter: blur(1.4px);
+  box-shadow: 0 0.3rem 2em 0.4rem #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+}
+
